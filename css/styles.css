@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
 
 /* common styles */
 body {
@@ -44,6 +45,10 @@ body {
 .home--image img {
     width: 440px;
     height: 414px;
+    transition: 3s ease-in-out;
+}
+.home--image img:hover {
+    transform: rotate(360deg);
 }
 
 /* company section styles */
@@ -155,4 +160,30 @@ body {
 }
 .feature--details a>i {
     padding-left: 5px;
+}
+
+/* footer styles */
+footer {
+    background-color: #0A0826;
+    color: #D9DBE1;
+    font-weight: 700;
+    text-align: center;
+}
+footer h4 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding-top: 50px;
+}
+footer p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    margin: 10px;
+}
+footer i {
+    /* background-color: #0a082623; */
+    background-color: rgba(139, 133, 172, 0.171);
+    font-size: 20px;
+    border-radius: 50%;
+    margin: 10px 10px 50px;
+    padding: 8px;
 }
